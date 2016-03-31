@@ -17,8 +17,8 @@
     },
     "kco-mobile-sdk": {
         "source": {
-            "type": "registry",
-            "id": "kco-mobile-sdk"
+            "type": "local",
+            "path": "../kco-mobile-sdk"
         },
         "is_top_level": true,
         "variables": {}

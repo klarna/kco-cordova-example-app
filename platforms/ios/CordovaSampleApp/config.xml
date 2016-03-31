@@ -29,7 +29,7 @@
         <param name="onload" value="true" />
     </feature>
     <feature name="KlarnaCheckout">
-        <param name="ios-package" value="KlarnaCheckout" />
+        <param name="ios-package" value="KlarnaCheckoutPlugin" />
         <param name="onload" value="true" />
     </feature>
     <preference name="KeyboardDisplayRequiresUserAction" value="false" />
@@ -44,6 +44,7 @@
     </author>
     <content src="https://www.klarnacheckout.com/" />
     <access origin="*" requires-forward-secrecy="false" />
+    <allow-navigation href="http://*/*" requires-forward-secrecy="false" />
     <allow-navigation href="https://*/*" requires-forward-secrecy="false" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />

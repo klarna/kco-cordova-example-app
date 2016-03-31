@@ -3,7 +3,7 @@ module.exports = [];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "kco-mobile-sdk": "1.3.3"
+    "kco-mobile-sdk": "1.3.4"
 }
 // BOTTOM OF METADATA
 });
