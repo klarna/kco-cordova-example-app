@@ -11,7 +11,7 @@ module.exports.metadata =
 {
     "cordova-plugin-device": "0.2.3",
     "cordova-plugin-whitelist": "1.2.1",
-    "kco-mobile-sdk": "1.3.4"
+    "kco-mobile-sdk": "1.4.0"
 };
 // BOTTOM OF METADATA
 });
