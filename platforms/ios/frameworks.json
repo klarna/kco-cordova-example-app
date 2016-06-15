@@ -1,10 +1,10 @@
 {
-    "UIKit.framework": 2,
-    "WebKit.framework": 2,
-    "Security.framework": 2,
-    "CFNetwork.framework": 2,
-    "JavaScriptCore.framework": 2,
-    "Contacts.framework": 2,
-    "SafariServices.framework": 2,
-    "SystemConfiguration.framework": 2
+    "UIKit.framework": 1,
+    "WebKit.framework": 1,
+    "Security.framework": 1,
+    "CFNetwork.framework": 1,
+    "JavaScriptCore.framework": 1,
+    "Contacts.framework": 1,
+    "SafariServices.framework": 1,
+    "SystemConfiguration.framework": 1
 }

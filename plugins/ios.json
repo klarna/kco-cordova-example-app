@@ -7,7 +7,7 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
+        "org.apache.cordova.device": {
             "PACKAGE_NAME": "com.klarna.checkout.cordova"
         },
         "kco-mobile-sdk": {

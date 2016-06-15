@@ -5,6 +5,9 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
     <feature name="KlarnaCheckout">
         <param name="android-package" value="com.klarna.checkout.KlarnaCheckoutPlugin" />
         <param name="onload" value="true" />

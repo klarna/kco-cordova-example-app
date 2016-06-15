@@ -11,6 +11,10 @@
                         {
                             "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -28,13 +32,13 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.klarna.checkout.cordova"
-        },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.klarna.checkout.cordova"
         },
         "kco-mobile-sdk": {
+            "PACKAGE_NAME": "com.klarna.checkout.cordova"
+        },
+        "org.apache.cordova.device": {
             "PACKAGE_NAME": "com.klarna.checkout.cordova"
         }
     },
@@ -44,11 +48,18 @@
             "file": "plugins/cordova-plugin-whitelist/whitelist.js",
             "id": "cordova-plugin-whitelist.whitelist",
             "runs": true
+        },
+        {
+            "file": "plugins/org.apache.cordova.device/www/device.js",
+            "id": "org.apache.cordova.device.device",
+            "clobbers": [
+                "device"
+            ]
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-device": "0.2.3",
         "cordova-plugin-whitelist": "1.2.1",
-        "kco-mobile-sdk": "1.4.0"
+        "kco-mobile-sdk": "1.4.0",
+        "org.apache.cordova.device": "0.2.13"
     }
 }

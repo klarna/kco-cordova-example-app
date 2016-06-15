@@ -8,26 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
-		04E94D0C77B9421892F7EA24 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35014F49A8E448EE9C64CDFA /* SafariServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		0AFE94151C930D3400133AF1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFE94141C930D3400133AF1 /* libz.tbd */; };
-		0AFEBE4F1D11B09F00162B88 /* KlarnaCheckout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFEBE4E1D11B09F00162B88 /* KlarnaCheckout.framework */; };
+		0AAE6A5F1D11B98A00C3D718 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAE6A5E1D11B98A00C3D718 /* libz.1.2.5.tbd */; };
+		196271BEC7FB4D80A8629849 /* KlarnaCheckout.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6162125D08154A8EACBD0EBA /* KlarnaCheckout.bundle */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		2C897A54398441C2AC7BF7F6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658A8A194E5647AE87995489 /* WebKit.framework */; };
+		21C6722706F64D1FBBA69835 /* KlarnaCheckoutPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 096DC7B3C71744319A3C2CC0 /* KlarnaCheckoutPlugin.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */; };
 		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
-		3E89F69726D84DAC9D1C0C38 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ACBDADF46F4048AD514F71 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		7BBEA75D8B2546F7BD09D423 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E83C3418894DB0AB1C0C71 /* CFNetwork.framework */; };
-		896E7C9A12E3435A82C80D72 /* KlarnaCheckout.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8360615C20F4CCEA952A2ED /* KlarnaCheckout.bundle */; };
-		91039BA4FAB7440BA27C3BA7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB163CF3FD884E4482CFBA44 /* Security.framework */; };
-		B3C29E4AB8FF4F0F8EA3072F /* KlarnaCheckoutPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 64897A4AE9274858BD2CB00C /* KlarnaCheckoutPlugin.m */; };
-		C373865EFEC6452FB47AE228 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EDCFFB5FFD427D96F74DDB /* UIKit.framework */; };
-		DE0BA765E0564174AD9F844B /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C9BAC281834A9F93F83C6D /* Contacts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		E70CEC57A3DF4F058DD9C454 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60D5DCFA7AD44EB9E5AF0C9 /* JavaScriptCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3F0963FDBC4B4D93A1223973 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C09D24F2C8402AAEDE8752 /* Security.framework */; };
+		8B6A8DC3E8AE4F74BDF320AC /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0680AEC60B1D439B8F87FF23 /* JavaScriptCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A1084C90B6F943F6BE06F743 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7331010BBF1443CEB4251048 /* WebKit.framework */; };
+		CCC0167C93774EE2B47A0E94 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6FC3163C264AFBB0A6620A /* SafariServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D0A0CC08972147D79C2F41B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1778C0D2FF6484183B4328B /* UIKit.framework */; };
+		D65D635D86344C5EA794EC9E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93842C7DF26D4F06B9B43739 /* CFNetwork.framework */; };
+		DE12C90883564306ADA085B9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF69EB91F4D41F89B162244 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E11F9D99C64C434BA3925DDF /* KlarnaCheckout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CC292418CD4A86B99E4561 /* KlarnaCheckout.framework */; };
+		FBB1A7C65476419393F1498B /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DB272C1FA64D69B1600FC4 /* CDVDevice.m */; };
+		FD0932552CD149C09D1E104E /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAA17F84F7341F2976CE2F3 /* Contacts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +50,9 @@
 
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CordovaSampleApp/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		0AFE94141C930D3400133AF1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		0AFEBE4E1D11B09F00162B88 /* KlarnaCheckout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KlarnaCheckout.framework; sourceTree = "<group>"; };
+		0680AEC60B1D439B8F87FF23 /* JavaScriptCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		096DC7B3C71744319A3C2CC0 /* KlarnaCheckoutPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = KlarnaCheckoutPlugin.m; path = "kco-mobile-sdk/KlarnaCheckoutPlugin.m"; sourceTree = "<group>"; };
+		0AAE6A5E1D11B98A00C3D718 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* CordovaSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CordovaSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,22 +66,23 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* CordovaSampleApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CordovaSampleApp-Prefix.pch"; sourceTree = "<group>"; };
-		35014F49A8E448EE9C64CDFA /* SafariServices.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
-		37C9BAC281834A9F93F83C6D /* Contacts.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
-		64897A4AE9274858BD2CB00C /* KlarnaCheckoutPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = KlarnaCheckoutPlugin.m; path = "kco-mobile-sdk/KlarnaCheckoutPlugin.m"; sourceTree = "<group>"; };
-		658A8A194E5647AE87995489 /* WebKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3FC81ADFC3114C33BA5F860E /* KlarnaCheckoutPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = KlarnaCheckoutPlugin.h; path = "kco-mobile-sdk/KlarnaCheckoutPlugin.h"; sourceTree = "<group>"; };
+		54C09D24F2C8402AAEDE8752 /* Security.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6162125D08154A8EACBD0EBA /* KlarnaCheckout.bundle */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.plug-in"; path = KlarnaCheckout.bundle; sourceTree = "<group>"; };
+		7331010BBF1443CEB4251048 /* WebKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7825D95BD3A54FD6B1EA9CD4 /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = org.apache.cordova.device/CDVDevice.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CordovaSampleApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CordovaSampleApp-Info.plist"; path = "CordovaSampleApp/CordovaSampleApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		AB163CF3FD884E4482CFBA44 /* Security.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		C8360615C20F4CCEA952A2ED /* KlarnaCheckout.bundle */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.plug-in"; path = KlarnaCheckout.bundle; sourceTree = "<group>"; };
-		D60D5DCFA7AD44EB9E5AF0C9 /* JavaScriptCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		E0E83C3418894DB0AB1C0C71 /* CFNetwork.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		E16A2EA0EDD7401AA1C1C351 /* KlarnaCheckoutPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = KlarnaCheckoutPlugin.h; path = "kco-mobile-sdk/KlarnaCheckoutPlugin.h"; sourceTree = "<group>"; };
+		8DF69EB91F4D41F89B162244 /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		93842C7DF26D4F06B9B43739 /* CFNetwork.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AAAA17F84F7341F2976CE2F3 /* Contacts.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		B0DB272C1FA64D69B1600FC4 /* CDVDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = org.apache.cordova.device/CDVDevice.m; sourceTree = "<group>"; };
+		C1778C0D2FF6484183B4328B /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		F1ACBDADF46F4048AD514F71 /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		F3EDCFFB5FFD427D96F74DDB /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7CC292418CD4A86B99E4561 /* KlarnaCheckout.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = KlarnaCheckout.framework; path = "CordovaSampleApp/Plugins/kco-mobile-sdk/KlarnaCheckout.framework"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = CordovaSampleApp/config.xml; sourceTree = "<group>"; };
+		FB6FC3163C264AFBB0A6620A /* SafariServices.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,17 +90,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AFE94151C930D3400133AF1 /* libz.tbd in Frameworks */,
+				0AAE6A5F1D11B98A00C3D718 /* libz.1.2.5.tbd in Frameworks */,
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				C373865EFEC6452FB47AE228 /* UIKit.framework in Frameworks */,
-				2C897A54398441C2AC7BF7F6 /* WebKit.framework in Frameworks */,
-				91039BA4FAB7440BA27C3BA7 /* Security.framework in Frameworks */,
-				7BBEA75D8B2546F7BD09D423 /* CFNetwork.framework in Frameworks */,
-				E70CEC57A3DF4F058DD9C454 /* JavaScriptCore.framework in Frameworks */,
-				DE0BA765E0564174AD9F844B /* Contacts.framework in Frameworks */,
-				04E94D0C77B9421892F7EA24 /* SafariServices.framework in Frameworks */,
-				3E89F69726D84DAC9D1C0C38 /* SystemConfiguration.framework in Frameworks */,
-				0AFEBE4F1D11B09F00162B88 /* KlarnaCheckout.framework in Frameworks */,
+				E11F9D99C64C434BA3925DDF /* KlarnaCheckout.framework in Frameworks */,
+				D0A0CC08972147D79C2F41B6 /* UIKit.framework in Frameworks */,
+				A1084C90B6F943F6BE06F743 /* WebKit.framework in Frameworks */,
+				3F0963FDBC4B4D93A1223973 /* Security.framework in Frameworks */,
+				D65D635D86344C5EA794EC9E /* CFNetwork.framework in Frameworks */,
+				8B6A8DC3E8AE4F74BDF320AC /* JavaScriptCore.framework in Frameworks */,
+				FD0932552CD149C09D1E104E /* Contacts.framework in Frameworks */,
+				CCC0167C93774EE2B47A0E94 /* SafariServices.framework in Frameworks */,
+				DE12C90883564306ADA085B9 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +162,7 @@
 				0207DA571B56EA530066E2B4 /* Images.xcassets */,
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* CordovaSampleApp-Info.plist */,
-				C8360615C20F4CCEA952A2ED /* KlarnaCheckout.bundle */,
+				6162125D08154A8EACBD0EBA /* KlarnaCheckout.bundle */,
 			);
 			name = Resources;
 			path = CordovaSampleApp/Resources;
@@ -168,16 +171,16 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0AFE94141C930D3400133AF1 /* libz.tbd */,
-				F3EDCFFB5FFD427D96F74DDB /* UIKit.framework */,
-				658A8A194E5647AE87995489 /* WebKit.framework */,
-				AB163CF3FD884E4482CFBA44 /* Security.framework */,
-				E0E83C3418894DB0AB1C0C71 /* CFNetwork.framework */,
-				D60D5DCFA7AD44EB9E5AF0C9 /* JavaScriptCore.framework */,
-				37C9BAC281834A9F93F83C6D /* Contacts.framework */,
-				35014F49A8E448EE9C64CDFA /* SafariServices.framework */,
-				F1ACBDADF46F4048AD514F71 /* SystemConfiguration.framework */,
-				0AFEBE4E1D11B09F00162B88 /* KlarnaCheckout.framework */,
+				0AAE6A5E1D11B98A00C3D718 /* libz.1.2.5.tbd */,
+				F7CC292418CD4A86B99E4561 /* KlarnaCheckout.framework */,
+				C1778C0D2FF6484183B4328B /* UIKit.framework */,
+				7331010BBF1443CEB4251048 /* WebKit.framework */,
+				54C09D24F2C8402AAEDE8752 /* Security.framework */,
+				93842C7DF26D4F06B9B43739 /* CFNetwork.framework */,
+				0680AEC60B1D439B8F87FF23 /* JavaScriptCore.framework */,
+				AAAA17F84F7341F2976CE2F3 /* Contacts.framework */,
+				FB6FC3163C264AFBB0A6620A /* SafariServices.framework */,
+				8DF69EB91F4D41F89B162244 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,8 +206,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				64897A4AE9274858BD2CB00C /* KlarnaCheckoutPlugin.m */,
-				E16A2EA0EDD7401AA1C1C351 /* KlarnaCheckoutPlugin.h */,
+				B0DB272C1FA64D69B1600FC4 /* CDVDevice.m */,
+				7825D95BD3A54FD6B1EA9CD4 /* CDVDevice.h */,
+				096DC7B3C71744319A3C2CC0 /* KlarnaCheckoutPlugin.m */,
+				3FC81ADFC3114C33BA5F860E /* KlarnaCheckoutPlugin.h */,
 			);
 			name = Plugins;
 			path = CordovaSampleApp/Plugins;
@@ -248,11 +253,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 510;
-				TargetAttributes = {
-					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = W8PSAY4BUG;
-					};
-				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CordovaSampleApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -296,7 +296,7 @@
 				3047A5141AB8059700498E2A /* build.xcconfig in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */,
-				896E7C9A12E3435A82C80D72 /* KlarnaCheckout.bundle in Resources */,
+				196271BEC7FB4D80A8629849 /* KlarnaCheckout.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +328,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				B3C29E4AB8FF4F0F8EA3072F /* KlarnaCheckoutPlugin.m in Sources */,
+				FBB1A7C65476419393F1498B /* CDVDevice.m in Sources */,
+				21C6722706F64D1FBBA69835 /* KlarnaCheckoutPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,44 +358,7 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"CordovaSampleApp/Plugins/klarna-checkout",
-					"CordovaSampleApp/Plugins/klarna-checkout",
-					"CordovaSampleApp/Plugins/klarna-checkout",
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"$(PROJECT_DIR)",
+					"\"CordovaSampleApp/Plugins/kco-mobile-sdk\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -404,6 +368,7 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "CordovaSampleApp/CordovaSampleApp-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.klarna.checkout.cordova;
 				PRODUCT_NAME = CordovaSampleApp;
@@ -425,50 +390,14 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"CordovaSampleApp/Plugins/klarna-checkout",
-					"CordovaSampleApp/Plugins/klarna-checkout",
-					"CordovaSampleApp/Plugins/klarna-checkout",
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					CordovaSampleApp/Plugins/com.klarna.checkout,
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"CordovaSampleApp/Plugins/kco-mobile-sdk",
-					"$(PROJECT_DIR)",
+					"\"CordovaSampleApp/Plugins/kco-mobile-sdk\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CordovaSampleApp/CordovaSampleApp-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "CordovaSampleApp/CordovaSampleApp-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.klarna.checkout.cordova;
 				PRODUCT_NAME = CordovaSampleApp;
@@ -522,6 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 			};

@@ -1,0 +1,33 @@
+{
+    "name": "cordova-plugin-device",
+    "version": "0.2.13",
+    "id": "org.apache.cordova.device",
+    "description": "Cordova Device Plugin",
+    "license": "Apache 2.0",
+    "repository":{
+        "type": "git",
+        "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-device.git"
+    },
+    "issue": "https://issues.apache.org/jira/browse/CB/component/12320648",
+    "keywords": [
+        "cordova",
+        "device"
+    ],
+    "platforms": [
+        "firefoxos",
+        "tizen",
+        "android",
+        "amazon-fireos",
+        "ubuntu",
+        "ios",
+        "blackberry10",
+        "wp7",
+        "wp8",
+        "windows8",
+        "windows",
+        "browser"
+    ],
+    "engines": [],
+    "author": "Steve Gill"
+
+}
