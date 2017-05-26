@@ -1,12 +1,12 @@
 {
-    "name": "helloworld",
-    "displayName": "HelloCordova",
+    "name": "kco-cordova-example-app",
+    "displayName": "KCOCordovaExampleApp",
     "version": "1.0.0",
-    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "description": "An example Cordova app that uses Klarna Checkout SDK.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Apache Cordova Team",
+    "author": "Klarna Checkout Team",
     "license": "Apache-2.0"
 }
