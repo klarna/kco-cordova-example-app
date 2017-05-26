@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.klarna.checkout.cordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>CordovaSampleApp</name>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>HelloCordova</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
-    <author email="marat.dyatko@klarna.com" href="https://github.com/klarna/kco-mobile-sdk">
-        Klarna Checkout Team
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
     </author>
-    <content src="https://www.klarnacheckout.com/" />
+    <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
-    <access origin="*" requires-forward-secrecy="false" />
-    <allow-navigation href="http://*/*" requires-forward-secrecy="false" />
-    <allow-navigation href="https://*/*" requires-forward-secrecy="false" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
@@ -23,10 +23,4 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <engine name="ios" spec="~4.1.0" />
-    <preference name="StatusBarOverlaysWebView" value="true" />
-    <preference name="StatusBarStyle" value="default" />
-    <plugin name="cordova-plugin-device" spec="~0.2.3" />
-    <plugin name="kco-mobile-sdk" spec="~1.4.0" />
-    <plugin name="org.apache.cordova.device" spec="~0.2.13" />
 </widget>
